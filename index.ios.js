@@ -24,7 +24,7 @@ export default class mobile extends Component {
   render() {
     return (
       <Navigator
-        initialRoute={{ title: 'My Initial Scene', index: 0 }}
+        initialRoute={{ id: 'lander' }}
         renderScene={this.resolveRoute}
       />
     );
