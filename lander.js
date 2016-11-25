@@ -4,7 +4,6 @@ import {
   StyleSheet,
   View,
 } from 'react-native';
-import Camera from 'react-native-camera';
 import Gallery from './gallery';
 
 export default class Lander extends Component {
