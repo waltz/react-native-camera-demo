@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest"
+    "start": "node node_modules/react-nat ive/local-cli/cli.js start",
+    "test": "mocha --compilers js:babel-register --require spec/spec_helper.js spec/**/*_spec.js"
   },
   "dependencies": {
     "react": "^15.4.2",
@@ -19,6 +19,7 @@
     "babel-preset-react-native": "1.9.0",
     "jest": "17.0.0",
     "jest-react-native": "17.0.0",
+    "mocha": "^3.2.0",
     "react-test-renderer": "15.3.2"
   }
 }
